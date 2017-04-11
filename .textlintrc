@@ -4,7 +4,9 @@
         "preset-ja-technical-writing": true,
         "prh": {
           "rulePaths": [
-            "./prh.yml"
+            "./prh.yml",
+            "./rules/media/WEB+DB_PRESS.yml",
+            "./rules/media/techbooster.yml"
             ]
         }
     },
