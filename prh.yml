@@ -6,3 +6,7 @@ rules:
       to:   jQuery
     - from: ＪＱＵＥＲＹ
       to:   jQuery
+  - expected: プラグインアーキテクチャ
+    pattern:
+      - プラグイン機構
+      - プラグインのアーキテクチャ
