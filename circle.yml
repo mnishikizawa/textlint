@@ -9,4 +9,4 @@ jobs:
       - run:
           name: "run textlint"
           command: |
-            npm run -s lint ./demo.md
+            npm run -s lint 
