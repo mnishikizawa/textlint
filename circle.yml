@@ -1,0 +1,12 @@
+version: 2
+jobs:
+  build:
+    working_directory: /Users/mnishikizawa/.ghq/github.com/mnishikizawa/textlint-test
+    docker:
+      - image: mnishikizawa:test2
+
+    steps:
+      - run:
+          name: "run textlint"
+          command: |
+            npm run -s lint ./demo.md
