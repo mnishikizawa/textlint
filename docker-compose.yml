@@ -1,0 +1,7 @@
+version: '2'
+services:
+  textlint:
+    image: test
+    volumes:
+      - ./rules:/textlint/rules
+      - /Users/mnishikizawa/.ghq/github.com/mnishikizawa/textlint-test:/data
