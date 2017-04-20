@@ -4,4 +4,4 @@ services:
     image: test
     volumes:
       - ./rules:/textlint/rules
-      - /Users/mnishikizawa/.ghq/github.com/mnishikizawa/textlint-test:/data
+      - .:/data
